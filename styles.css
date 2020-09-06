@@ -9,16 +9,16 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #F0FFFF;
+  background: #f7f5f0;
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: rgb(113, 12, 247);
+  color: #999;
 }
 a:hover {
-  color: #250681;
+  color: #6633ff;
 }
 
 /* Section Styles */
@@ -43,13 +43,13 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: rgb(113, 12, 247);
+    color: white;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
 }
 .nav a {
-  transition: all .7s;
+  transition: all .5s;
 }
 .nav a:hover {
   color: white
@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/staunton.jpg') no-repeat top center ;
+  background: url('images/portland.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -70,14 +70,14 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 1px solid #000000;
+  border: 3px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(25deg);
+  transform: scale(1.2) rotate(5deg);
 }
 .tag {
-  background-color: rgb(113, 12, 247);
+  background-color: #efefef;
   color: black;
   padding: 10px;
   border-radius: 5px;
@@ -86,7 +86,7 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: rgb(113, 12, 247);
+  color: yellow;
 }
 .card {
   margin: 30px;
@@ -96,10 +96,10 @@ header .profile-image:hover {
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
-  transition: all .7s;
+  transition: all .5s;
 }
 .card:hover {
-  border-color: rgb(113, 12, 247);
+  border-color: #ff99ff;
 }
 
 ul.skills {
@@ -110,7 +110,7 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: rgb(113, 12, 247);
+  background: #ff9904;
   color: white;
   padding: 5px 10px;
   margin: 2px;
@@ -151,7 +151,9 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-
+a.twitter {
+  background-image: url(images/twitter.svg);
+}
 a.linkedin {
   background-image: url(images/linkedin.svg);
 }
